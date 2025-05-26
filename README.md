@@ -11,8 +11,8 @@
              `/:-:++oooo+:                  Shell: This one is serious - zsh (4ever)
             `/++++/+++++++:                 Resolution: 20/20 Vision
            `/++++++++++++++:                DE: Introvert 7.2
-          `/+++ooooooooooooo/`              Terminal: Coffee v4.2
-         ./ooosssso++osssssso+`             --------------
+          `/+++ooooooooooooo/`              Terminal: Kitty (Because I'm too cool for GUI apps)
+         ./ooosssso++osssssso+`             WM: Hyprland (Making Windows Float Away)
         .oossssso-````/ossssss+`            CPU: Brain i9 (8 Core, 16 Thread)
        -osssssso.      :ssssssso.           GPU: Imagination RTX 4090
       :osssssss/        osssso+++.          Memory: 1.5TB Long-Term / 16GB Short-Term
