@@ -67,72 +67,40 @@ new_readme = readme[:start_index] + new_section + readme[end_index:]
 uptime_pattern = r"Uptime: (\d+)y (\d+)m (\d+)d"
 # Calculate uptime based on time since September 29, 1998
 birth_date = datetime(1998, 9, 29).date()
+# Get current date
 today = datetime.now().date()
 
-# Get the last update date from README to check if we need to update
+# Calculate years, months, and days since birth date
+years = today.year - birth_date.year
+months = today.month - birth_date.month
+days = today.day - birth_date.day
+
+# Adjust for negative months or days
+if days < 0:
+    # Borrow from months
+    months -= 1
+    # Add days from previous month
+    last_month = today.replace(day=1) - timedelta(days=1)
+    days += last_month.day
+
+if months < 0:
+    # Borrow from years
+    years -= 1
+    months += 12
+
+# Update the uptime in README
+new_uptime = f"Uptime: {years}y {months}m {days}d"
+new_readme = re.sub(uptime_pattern, new_uptime, new_readme)
+
+# Update the last updated date tag
 last_update_pattern = r"<!-- LAST_UPDATED: (\d{4}-\d{2}-\d{2}) -->"
-last_update_match = re.search(last_update_pattern, readme)
-last_update_date = None
+new_last_update = f"<!-- LAST_UPDATED: {today.strftime('%Y-%m-%d')} -->"
 
-if last_update_match:
-    last_update_str = last_update_match.group(1)
-    last_update_date = datetime.strptime(last_update_str, '%Y-%m-%d').date()
-
-# Only update if it's a new day or no previous update exists
-if not last_update_date or today > last_update_date:
-    # Calculate the difference
-    delta = today - birth_date
-    total_days = delta.days
-
-    # Convert to years, months, days more accurately
-    years = total_days // 365
-    
-    # Create a date that's years later from birth date
-    years_later = birth_date.replace(year=birth_date.year + years)
-    if years_later > today:  # Handle leap years edge case
-        years -= 1
-        years_later = birth_date.replace(year=birth_date.year + years)
-    
-    # Calculate months
-    months = 0
-    while True:
-        months_later = years_later
-        # Try to add a month, handling month rollover
-        month = months_later.month + 1
-        year = months_later.year + (month > 12)
-        month = month % 12 or 12
-        try:
-            months_later = months_later.replace(year=year, month=month)
-            if months_later > today:
-                break
-            months += 1
-            years_later = months_later
-        except ValueError:  # Handle month with fewer days
-            months_later = months_later.replace(year=year, month=month, day=1)
-            if months_later > today:
-                break
-            months += 1
-            years_later = months_later
-    
-    # Remaining days
-    days = (today - years_later).days
-
-    # Update the uptime in README
-    new_uptime = f"Uptime: {years}y {months}m {days}d"
-    new_readme = re.sub(uptime_pattern, new_uptime, new_readme)
-
-    # Update the last updated date tag
-    if last_update_match:
-        new_last_update = f"<!-- LAST_UPDATED: {today.strftime('%Y-%m-%d')} -->"
-        new_readme = re.sub(last_update_pattern, new_last_update, new_readme)
-    else:
-        # Add the tag if it doesn't exist (right after commits section)
-        new_last_update = f"\n<!-- LAST_UPDATED: {today.strftime('%Y-%m-%d')} -->"
-        new_readme = new_readme.replace(end_tag, end_tag + new_last_update)
-
-    with open("README.md", "w") as f:
-        f.write(new_readme)
+if re.search(last_update_pattern, new_readme):
+    new_readme = re.sub(last_update_pattern, new_last_update, new_readme)
 else:
-    # No need to update if it's the same day
-    print("No update needed - same day as last execution.")
+    # Add the tag if it doesn't exist (right after commits section)
+    new_readme = new_readme.replace(end_tag, end_tag + f"\n{new_last_update}")
 
+with open("README.md", "w") as f:
+    f.write(new_readme)
