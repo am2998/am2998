@@ -64,33 +64,48 @@ new_section = f"{start_tag}\n{table_markdown}\n{end_tag}"
 new_readme = readme[:start_index] + new_section + readme[end_index:]
 
 # Update uptime
-uptime_pattern = r"Uptime\.*: (\d+)y (\d+)m (\d+)d"
-match = re.search(uptime_pattern, new_readme)
+uptime_pattern = r"Uptime: (\d+)y (\d+)m (\d+)d"
+# Calculate uptime based on time since September 29, 1998
+birth_date = datetime(1998, 9, 29).date()
+today = datetime.now().date()
 
-if match:
-    years = int(match.group(1))
-    months = int(match.group(2))
-    days = int(match.group(3))
-    
-    # Increment days by 1
-    days += 1
-    
-    # Handle month rollover (approximating month as 30 days)
-    if days > 30:
-        days = 1
-        months += 1
-        
-    # Handle year rollover
-    if months > 12:
-        months = 1
-        years += 1
-    
-    # Create new uptime string
-    new_uptime = f"Uptime........: {years}y {months}m {days}d"
-    
-    # Replace old uptime with new one
+# Get the last update date from README to check if we need to update
+last_update_pattern = r"<!-- LAST_UPDATED: (\d{4}-\d{2}-\d{2}) -->"
+last_update_match = re.search(last_update_pattern, readme)
+last_update_date = None
+
+if last_update_match:
+    last_update_str = last_update_match.group(1)
+    last_update_date = datetime.strptime(last_update_str, '%Y-%m-%d').date()
+
+# Only update if it's a new day or no previous update exists
+if not last_update_date or today > last_update_date:
+    # Calculate the difference
+    delta = today - birth_date
+    total_days = delta.days
+
+    # Convert to years, months, days
+    years = total_days // 365
+    remaining_days = total_days % 365
+    months = remaining_days // 30
+    days = remaining_days % 30
+
+    # Update the uptime in README
+    new_uptime = f"Uptime: {years}y {months}m {days}d"
     new_readme = re.sub(uptime_pattern, new_uptime, new_readme)
 
-with open("README.md", "w") as f:
-    f.write(new_readme)
+    # Update the last updated date tag
+    if last_update_match:
+        new_last_update = f"<!-- LAST_UPDATED: {today.strftime('%Y-%m-%d')} -->"
+        new_readme = re.sub(last_update_pattern, new_last_update, new_readme)
+    else:
+        # Add the tag if it doesn't exist (right after commits section)
+        new_last_update = f"\n<!-- LAST_UPDATED: {today.strftime('%Y-%m-%d')} -->"
+        new_readme = new_readme.replace(end_tag, end_tag + new_last_update)
+
+    with open("README.md", "w") as f:
+        f.write(new_readme)
+else:
+    # No need to update if it's the same day
+    print("No update needed - same day as last execution.")
 
