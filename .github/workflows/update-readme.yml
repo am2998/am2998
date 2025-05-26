@@ -2,12 +2,11 @@ name: Update README with latest commits
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
-
+    - cron: "*/30 * * * *"  # Every 30 minutes
   workflow_dispatch:
 
-  permissions:
-  contents: write
+permissions:
+  contents: write  # ✅ Allows pushing commits to the repo
 
 jobs:
   update-readme:
