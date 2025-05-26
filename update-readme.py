@@ -84,11 +84,38 @@ if not last_update_date or today > last_update_date:
     delta = today - birth_date
     total_days = delta.days
 
-    # Convert to years, months, days
+    # Convert to years, months, days more accurately
     years = total_days // 365
-    remaining_days = total_days % 365
-    months = remaining_days // 30
-    days = remaining_days % 30
+    
+    # Create a date that's years later from birth date
+    years_later = birth_date.replace(year=birth_date.year + years)
+    if years_later > today:  # Handle leap years edge case
+        years -= 1
+        years_later = birth_date.replace(year=birth_date.year + years)
+    
+    # Calculate months
+    months = 0
+    while True:
+        months_later = years_later
+        # Try to add a month, handling month rollover
+        month = months_later.month + 1
+        year = months_later.year + (month > 12)
+        month = month % 12 or 12
+        try:
+            months_later = months_later.replace(year=year, month=month)
+            if months_later > today:
+                break
+            months += 1
+            years_later = months_later
+        except ValueError:  # Handle month with fewer days
+            months_later = months_later.replace(year=year, month=month, day=1)
+            if months_later > today:
+                break
+            months += 1
+            years_later = months_later
+    
+    # Remaining days
+    days = (today - years_later).days
 
     # Update the uptime in README
     new_uptime = f"Uptime: {years}y {months}m {days}d"
