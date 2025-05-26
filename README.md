@@ -37,3 +37,9 @@ If you're into Linux tinkering, automating things, or just want to talk DevOps, 
 <p align="center">
   <em>Ah, and i use Arch btw</em> 😎
 </p>
+
+## 📌 Latest Commits
+
+<!-- LATEST_COMMITS_START -->
+Loading latest commits...
+<!-- LATEST_COMMITS_END -->
