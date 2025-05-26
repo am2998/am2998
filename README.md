@@ -8,7 +8,7 @@
                  `+oooo:                    Kernel: Neocortex v5.3
                `+oooooo:                    Uptime: 26y 7m 27d
                -+oooooo+:                   Packages: Hard Skills
-             `/:-:++oooo+:                  Shell: This one is serious - Zsh (4ever)
+             `/:-:++oooo+:                  Shell: This one is serious - zsh (4ever)
             `/++++/+++++++:                 Resolution: 20/20 Vision
            `/++++++++++++++:                DE: Introvert 7.2
           `/+++ooooooooooooo/`              Terminal: Coffee v4.2
