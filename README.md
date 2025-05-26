@@ -35,5 +35,5 @@ If you're into Linux tinkering, automating things, or just want to talk DevOps, 
 ---
 
 <p align="center">
-  <em>“Ah, and i use Arch btw.”</em> 😎
+  <em>Ah, and i use Arch btw</em> 😎
 </p>
