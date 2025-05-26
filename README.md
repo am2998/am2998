@@ -20,7 +20,7 @@
    `/ossssso+/:-        -:/+osssso+-        Disk: 42% Filled (58% Free Space)
   `+sso+:-`                 `.-/+oso:       Battery: 75% (Charging - Coffee Required)
  `++:.                           `-/+/      Local IP: Somewhere on Earth
- .`                                 `/      Processes:  Current Projects
+ .`                                 `/      Processes: Current Projects
 ```
 
 
