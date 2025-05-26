@@ -1,5 +1,31 @@
 ## 👋 About Me
 
+
+```
+                   -`                       am@2998
+                  .o+`                      -------------
+                 `ooo/                      OS: Human 1.0
+                 `+oooo:                    Kernel: Neocortex v5.3
+               `+oooooo:                    Uptime: 26y 7m 27d
+               -+oooooo+:                   Packages: Hard Skills
+             `/:-:++oooo+:                  Shell: This one is serious - Zsh (4ever)
+            `/++++/+++++++:                 Resolution: 20/20 Vision
+           `/++++++++++++++:                DE: Introvert 7.2
+          `/+++ooooooooooooo/`              Terminal: Coffee v4.2
+         ./ooosssso++osssssso+`             --------------
+        .oossssso-````/ossssss+`            CPU: Brain i9 (8 Core, 16 Thread)
+       -osssssso.      :ssssssso.           GPU: Imagination RTX 4090
+      :osssssss/        osssso+++.          Memory: 1.5TB Long-Term / 16GB Short-Term
+     /ossssssss/        +ssssooo/-          Swap: 8GB Sleep Required
+   `/ossssso+/:-        -:/+osssso+-        Disk: 42% Filled (58% Free Space)
+  `+sso+:-`                 `.-/+oso:       Battery: 75% (Charging - Coffee Required)
+ `++:.                           `-/+/      Local IP: Somewhere on Earth
+ .`                                 `/      Processes:  Current Projects
+```
+
+
+
+
 Hey there! I'm a tech enthusiast who loves turning ideas into code.  
 I spend most of my time exploring the world of:
 
@@ -8,6 +34,10 @@ I spend most of my time exploring the world of:
 - ☁️ **Cloud & DevOps Projects** – Automating everything, from infrastructure to deployments
 
 I’m always looking for ways to improve workflows, optimize systems, and build cool stuff that makes life easier (or just looks better in the terminal 😄).
+
+<p align="center">
+  <em>Ah, and i use Arch btw</em> 😎
+</p>
 
 ---
 
@@ -32,11 +62,7 @@ Some certifications I've picked up along the way:
 
 If you're into Linux tinkering, automating things, or just want to talk DevOps, feel free to reach out or check out my projects here on GitHub!
 
----
 
-<p align="center">
-  <em>Ah, and i use Arch btw</em> 😎
-</p>
 
 ## 📌 Latest Commits
 
