@@ -3,7 +3,7 @@
 Hey there! I'm a tech enthusiast who loves turning ideas into code.  
 I spend most of my time exploring the world of:
 
-- 💻 **Coding** – Always learning new languages and tools
+- ⚙️ **Automation (especially scripting)** – Shell, Python, anything that helps get repetitive stuff out of the way
 - 🐧 **Linux Customization** – Tiling window managers, ricing, dotfiles... I enjoy making my system truly mine
 - ☁️ **Cloud & DevOps Projects** – Automating everything, from infrastructure to deployments
 
@@ -32,3 +32,8 @@ Some certifications I've picked up along the way:
 
 If you're into Linux tinkering, automating things, or just want to talk DevOps, feel free to reach out or check out my projects here on GitHub!
 
+---
+
+<p align="center">
+  <em>“Ah, and i use Arch btw.”</em> 😎
+</p>
