@@ -11,37 +11,49 @@ PROFILE_REPO = USERNAME.lower()    # Skip the profile README repo
 # === FETCH REPOS ===
 headers = {"Accept": "application/vnd.github.v3+json"}
 repos_url = f"https://api.github.com/users/{USERNAME}/repos?per_page={REPO_LIMIT}&sort=updated"
-repos = requests.get(repos_url, headers=headers).json()
+response = requests.get(repos_url, headers=headers)
 
 commits_data = []
 
-for repo in repos:
-    repo_name = repo["name"]
-
-    # Skip profile repo, forks, and archived repos
-    if repo_name.lower() == PROFILE_REPO or repo.get("fork") or repo.get("archived"):
-        continue
-
-    commits_url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/commits"
-    commits = requests.get(commits_url, headers=headers).json()
-
-    if isinstance(commits, list) and len(commits) > 0:
-        commit = commits[0]
-        sha = commit["sha"][:7]
-        message = commit["commit"]["message"].split("\n")[0].strip()
-        date = commit["commit"]["committer"]["date"][:10]
-        url = commit["html_url"]
-
-        commits_data.append((repo_name, message, sha, url, date))
-
-# Sort by date descending
-commits_data.sort(key=lambda x: x[4], reverse=True)
-commits_data = commits_data[:COMMITS_LIMIT]
+if response.status_code == 200:
+    repos = response.json()
+    
+    for repo in repos:
+        repo_name = repo["name"]
+        
+        # Skip profile repo, forks, and archived repos
+        if repo_name.lower() == PROFILE_REPO or repo.get("fork") or repo.get("archived"):
+            continue
+            
+        commits_url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/commits?per_page=1"
+        commit_response = requests.get(commits_url, headers=headers)
+        
+        if commit_response.status_code == 200:
+            commits = commit_response.json()
+            
+            if isinstance(commits, list) and len(commits) > 0:
+                commit = commits[0]
+                sha = commit["sha"][:7]
+                message = commit["commit"]["message"].split("\n")[0].strip()
+                # Truncate long messages
+                if len(message) > 50:
+                    message = message[:47] + "..."
+                date = commit["commit"]["committer"]["date"][:10]
+                url = commit["html_url"]
+                
+                commits_data.append((repo_name, message, sha, url, date))
+    
+    # Sort by date descending
+    commits_data.sort(key=lambda x: x[4], reverse=True)
+    commits_data = commits_data[:COMMITS_LIMIT]
+else:
+    print(f"Error fetching repos: {response.status_code}")
+    commits_data = [("Error", "Could not fetch commits", "", "", "")]
 
 # === BUILD MARKDOWN TABLE ===
-table_header = "| Repo | Message | Commit | Date |\n|------|---------|--------|------|"
+table_header = "| Repository | Commit Message | Hash | Date |\n|------------|----------------|------|------|"
 table_rows = [
-    f"| `{repo}` | {msg} | [`{sha}`]({url}) | {date} |"
+    f"| [{repo}](https://github.com/{USERNAME}/{repo}) | {msg} | [`{sha}`]({url}) | {date} |"
     for repo, msg, sha, url, date in commits_data
 ]
 table_markdown = table_header + "\n" + "\n".join(table_rows)
@@ -62,6 +74,8 @@ if start_index == -1 or end_index == -1:
 
 new_section = f"{start_tag}\n{table_markdown}\n{end_tag}"
 new_readme = readme[:start_index] + new_section + readme[end_index:]
+
+
 
 # Update uptime
 uptime_pattern = r"Uptime: (\d+)y (\d+)m (\d+)d"
