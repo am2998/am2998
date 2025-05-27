@@ -64,8 +64,8 @@ If you're into Linux tinkering, automating things, or just want to talk DevOps, 
 ## 📌 Latest Commits
 
 <!-- LATEST_COMMITS_START -->
-| Repo | Message | Commit | Date |
-|------|---------|--------|------|
+| Repository | Commit Message | Hash | Date |
+|------------|----------------|------|------|
 
 <!-- LATEST_COMMITS_END -->
 <!-- LAST_UPDATED: 2025-05-27 -->
