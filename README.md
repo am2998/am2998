@@ -65,7 +65,7 @@ Some certifications I've picked up along the way:
 ## 📊 GitHub Stats
 
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=am2998&theme=tokyonight" width="30%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=am2998&theme=tokyonight" width="50%"/>
 </p>
 
 
