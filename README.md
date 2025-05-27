@@ -28,6 +28,19 @@
   </p>
 </p>
 
+<div style="background-color:#1e1e1e; color:#c5c8c6; padding:1em; font-family:'Fira Code', monospace; font-size:16px; width:100%; box-sizing:border-box;">
+  $ cat BSOD.txt | grep "the OS that blue screens more than a 2000s hacker movie" | grep Windows
+</div>
+
+<div style="background-color:#1e1e1e; color:#c5c8c6; padding:1em 1em 1em 2em; font-family:'Fira Code', monospace; font-size:16px; width:100%; box-sizing:border-box;">
+  <span style="color:#ff0000; font-weight:700;">Windows</span>
+</div>
+
+
+
+
+
+<br>
 
 
 Hey there! I'm a tech enthusiast who loves turning ideas into code.  
