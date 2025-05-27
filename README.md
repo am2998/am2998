@@ -74,6 +74,3 @@ Some certifications I've picked up along the way:
 
 If you're into Linux tinkering, automating things, or just want to talk DevOps, feel free to reach out or check out my projects here on GitHub!
 
-
-
-
