@@ -39,12 +39,6 @@ I spend most of my time exploring the world of:
 
 I’m always looking for ways to improve workflows, optimize systems, and build cool stuff that makes life easier (or just looks better in the terminal 😄).
 
-<p>
-  <em>Ah, and i use Arch btw</em> 😎
-</p>
-
-
-
 ## Certifications
 
 Some certifications I've picked up along the way:
