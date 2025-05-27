@@ -1,3 +1,5 @@
+# 👋 About Me
+
 ```
                    -`                       am@2998
                   .o+`                      -------------
@@ -20,6 +22,11 @@
  .`                                 `/      Processes: Current Projects
 ```
 
+<p>
+  <p>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=FFFFFF&width=435&lines=I+use+Arch+btw+%F0%9F%90%A7" alt="Typing SVG" />
+  </p>
+</p>
 
 
 
@@ -32,13 +39,13 @@ I spend most of my time exploring the world of:
 
 I’m always looking for ways to improve workflows, optimize systems, and build cool stuff that makes life easier (or just looks better in the terminal 😄).
 
-<p align="center">
+<p>
   <em>Ah, and i use Arch btw</em> 😎
 </p>
 
----
 
-## 📜 Certifications
+
+## Certifications
 
 Some certifications I've picked up along the way:
 
@@ -53,7 +60,15 @@ Some certifications I've picked up along the way:
   <img src="certs/ejpt.png" alt="eJPT" width="100" title="eLearnSecurity Junior Penetration Tester (eJPT)" />
 </div>
 
----
+
+
+## 📊 GitHub Stats
+
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=am2998&theme=tokyonight" width="30%" />
+</p>
+
+
 
 ## 📫 Let’s Connect
 
@@ -61,11 +76,4 @@ If you're into Linux tinkering, automating things, or just want to talk DevOps, 
 
 
 
-## 📌 Latest Commits
 
-<!-- LATEST_COMMITS_START -->
-| Repo | Message | Commit | Date |
-|------|---------|--------|------|
-
-<!-- LATEST_COMMITS_END -->
-<!-- LAST_UPDATED: 2025-05-27 -->
