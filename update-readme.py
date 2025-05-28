@@ -26,6 +26,10 @@ if months < 0:
     years -= 1
     months += 12
 
+# Read the README file content
+with open("README.md", "r") as f:
+    new_readme = f.read()
+
 # Update the uptime in README
 new_uptime = f"Uptime: {years}y {months}m {days}d"
 new_readme = re.sub(uptime_pattern, new_uptime, new_readme)
