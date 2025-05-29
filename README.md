@@ -31,9 +31,8 @@
 
 
 ```bash
-$ cat bad-os.txt | grep "the OS that blue screens more than a 2000s hacker movie" | grep Windows
-
-Windows
+$ grep "blue screens more than a 2000s hacker movie" BSOD.txt | cut -d: -f1
+ Windows
 ```
 
 
