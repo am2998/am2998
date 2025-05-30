@@ -5,7 +5,7 @@
                   .o+`                      -------------
                  `ooo/                      OS: Human 1.0
                  `+oooo:                    Kernel: Neocortex v5.3
-               `+oooooo:                    Uptime: 26y 7m 28d
+               `+oooooo:                    Uptime: 26y 8m 1d
                -+oooooo+:                   Packages: Hard Skills
              `/:-:++oooo+:                  Shell: This one is serious - zsh (4ever)
             `/++++/+++++++:                 Resolution: 20/20 Vision
