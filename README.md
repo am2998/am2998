@@ -23,7 +23,7 @@
 ```
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=500&height=100&lines=I+use+Arch+btw+%F0%9F%90%A7;Ricing+is+my+cardio+%F0%9F%8F%83;ZSH+enthusiast+%F0%9F%92%9A;Btw%2C+did+I+mention+I+use+Arch%3F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=500&height=100&lines=I+use+Arch+btw+%F0%9F%90%A7;Ricing+is+my+cardio+%F0%9F%8F%83;In+love+with+ZSH+%F0%9F%92%9A;Btw%2C+did+I+mention+I+use+Arch%3F" alt="Typing SVG" />
 </p>
 
 ```bash
