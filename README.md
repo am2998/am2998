@@ -3,6 +3,7 @@
 ```
                    -`                       am@2998
                   .o+`                      -------------
+<<<<<<< HEAD
                  `ooo/                      OS: Human 1.0 Ultimate Edition
                  `+oooo:                    Kernel: Neocortex v6.2-zen
                `+oooooo:                    Uptime: 26y 7m 28d (No crashes... yet)
@@ -20,6 +21,25 @@
   `+sso+:-`                 `.-/+oso:       Battery: 75% ⚡ (Recharges with coffee and pizza)
  `++:.                           `-/+/      Local IP: 127.0.0.1 at heart
  .`                                 `/      Processes: 14 projects (3 overdue, 2 just started)
+=======
+                 `ooo/                      OS: Human 1.0
+                 `+oooo:                    Kernel: Neocortex v5.3
+               `+oooooo:                    Uptime: 26y 8m 2d
+               -+oooooo+:                   Packages: Hard Skills
+             `/:-:++oooo+:                  Shell: This one is serious - zsh (4ever)
+            `/++++/+++++++:                 Resolution: 20/20 Vision
+           `/++++++++++++++:                DE: Introvert 7.2
+          `/+++ooooooooooooo/`              Terminal: Kitty (Because I'm too cool for GUI apps)
+         ./ooosssso++osssssso+`             WM: Hyprland (Making Windows Float Away)
+        .oossssso-````/ossssss+`            CPU: Brain i9 (8 Core, 16 Thread)
+       -osssssso.      :ssssssso.           GPU: Imagination RTX 4090
+      :osssssss/        osssso+++.          Memory: 1.5TB Long-Term / 16GB Short-Term
+     /ossssssss/        +ssssooo/-          Swap: 8GB Sleep Required
+   `/ossssso+/:-        -:/+osssso+-        Disk: 42% Filled (58% Free Space)
+  `+sso+:-`                 `.-/+oso:       Battery: 75% (Charging - Coffee Required)
+ `++:.                           `-/+/      Local IP: Somewhere on Earth
+ .`                                 `/      Processes: Current Projects
+>>>>>>> e72d4b262f99bf573f25ac62c825fe2330f1e0f3
 ```
 
 <p align="center">
