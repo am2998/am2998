@@ -5,7 +5,7 @@
                   .o+`                      -------------
                  `ooo/                      OS: Human 1.0 Ultimate Edition
                 `+oooo:                     Kernel: Neocortex v6.2-zen
-               `+oooooo:                    Uptime: 26y 10m 10d (No crashes... yet)
+               `+oooooo:                    Uptime: 26y 10m 11d (No crashes... yet)
                -+oooooo+:                   Packages: 127 (hard skills), 42 (soft skills)
              `/:-:++oooo+:                  Shell: zsh 5.9 with oh-my-zsh & p10k
             `/++++/+++++++:                 Resolution: 20/20 Vision (4K HDR Ready)
