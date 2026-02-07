@@ -4,7 +4,7 @@
 
 
 ## $ whoami
-Cloud Engineer @ Avanade | Designing Cloud-Native Infrastructures
+DevOps\Cloud Engineer | Avanade
 
 Routine drains me. Hard problems don’t. Curious by nature, always learning, stubborn enough to keep improving until it works.
 
