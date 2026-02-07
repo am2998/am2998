@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=500&height=100&lines=I+use+Arch+btw+%F0%9F%90%A7" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+Arch+btw+%F0%9F%90%A7;In+love+with+ZFS+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 
@@ -8,8 +8,6 @@
 I'm a **Cloud & DevOps Engineer** with a focus on **Microsoft Azure**.  
 
 ## Certifications
-
-Some certifications i've picked up along the way:
 
 <div>
   <img src="certs/AZ900.svg" alt="AZ-900: Azure Fundamentals" width="100" title="AZ-900: Microsoft Azure Fundamentals" />
