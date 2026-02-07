@@ -4,8 +4,9 @@
 
 
 ## $ whoami
+Cloud Engineer @ Avanade | Designing Cloud-Native Infrastructures
 
-I'm a **Cloud & DevOps Engineer** with a focus on **Microsoft Azure**.  
+Routine drains me. Hard problems don’t. Curious by nature, always learning, stubborn enough to keep improving until it works.
 
 ## Certifications
 
