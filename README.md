@@ -4,7 +4,7 @@
 
 
 ## $ whoami
-DevOps\Cloud Engineer | Avanade
+DevOps\Cloud Engineer
 
 Routine drains me. Hard problems don’t. Curious by nature, always learning, stubborn enough to keep improving until it works.
 
