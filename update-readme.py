@@ -12,7 +12,8 @@ README_PATH = Path("README.md")
 SECTION_TITLE = "## Recent Commits"
 START_MARKER = "<!-- RECENT_COMMITS_START -->"
 END_MARKER = "<!-- RECENT_COMMITS_END -->"
-DISPLAY_COLUMNS = 3
+COMMIT_LIMIT = 5
+DISPLAY_COLUMNS = COMMIT_LIMIT
 API_TIMEOUT_SECONDS = 10
 
 
@@ -29,7 +30,7 @@ def is_merge_message(message: str) -> bool:
     return message.strip().lower().startswith("merge")
 
 
-def get_recent_commits(limit: int = 3) -> list[CommitEntry]:
+def get_recent_commits(limit: int = COMMIT_LIMIT) -> list[CommitEntry]:
     username = detect_github_username()
     if username:
         api_commits = get_recent_commits_from_github(username=username, limit=limit)
@@ -53,7 +54,9 @@ def detect_github_username() -> str | None:
     return owner or None
 
 
-def get_recent_commits_from_github(username: str, limit: int = 3) -> list[CommitEntry]:
+def get_recent_commits_from_github(
+    username: str, limit: int = COMMIT_LIMIT
+) -> list[CommitEntry]:
     query = parse.quote(f"author:{username}", safe="")
     per_page = min(max(limit * 10, 30), 100)
     url = (
@@ -114,7 +117,7 @@ def get_recent_commits_from_github(username: str, limit: int = 3) -> list[Commit
     return commits
 
 
-def get_recent_commits_from_local_repo(limit: int = 3) -> list[CommitEntry]:
+def get_recent_commits_from_local_repo(limit: int = COMMIT_LIMIT) -> list[CommitEntry]:
     fetch_count = max(limit * 10, 30)
     output = subprocess.check_output(
         [
@@ -207,8 +210,9 @@ def build_commits_section(commits: list[CommitEntry]) -> str:
     if not commits:
         body = "_No commits found._"
     else:
+        column_width = f"{100 / DISPLAY_COLUMNS:.2f}%"
         cells = []
-        for index, commit in enumerate(commits[:DISPLAY_COLUMNS], start=1):
+        for commit in commits[:DISPLAY_COLUMNS]:
             safe_hash = html.escape(commit.short_hash)
             safe_message = html.escape(shorten_message(commit.message))
             safe_date = html.escape(commit.date)
@@ -220,7 +224,7 @@ def build_commits_section(commits: list[CommitEntry]) -> str:
                 hash_block = f"<code>{safe_hash}</code>"
 
             cells.append(
-                "    <td align=\"left\" valign=\"top\" width=\"33.33%\">\n"
+                f"    <td align=\"left\" valign=\"top\" width=\"{column_width}\">\n"
                 f"      <b>{hash_block}</b><br/>\n"
                 f"      {safe_date}<br/>\n"
                 f"      {safe_repo if safe_repo else '-'}<br/><br/>\n"
@@ -230,11 +234,8 @@ def build_commits_section(commits: list[CommitEntry]) -> str:
 
         while len(cells) < DISPLAY_COLUMNS:
             cells.append(
-                "    <td align=\"left\" valign=\"top\" width=\"33.33%\">\n"
-                "      <code>-</code><br/>\n"
-                "      -<br/>\n"
-                "      -<br/><br/>\n"
-                "      <b>No data</b>\n"
+                f"    <td align=\"left\" valign=\"top\" width=\"{column_width}\">\n"
+                "      &nbsp;\n"
                 "    </td>"
             )
 
@@ -276,7 +277,7 @@ def upsert_commits_section(readme: str, section: str) -> str:
 
 def main() -> None:
     readme = README_PATH.read_text(encoding="utf-8")
-    commits = get_recent_commits(limit=3)
+    commits = get_recent_commits(limit=COMMIT_LIMIT)
     section = build_commits_section(commits)
     updated_readme = upsert_commits_section(readme, section)
     README_PATH.write_text(updated_readme, encoding="utf-8")
