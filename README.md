@@ -27,6 +27,7 @@ DevOps | Cloud Engineer
     <td align="left" valign="top" width="33%">
       <b>Commit 1</b><br/>
       <a href="https://github.com/am2998/am2998/commit/3dd1553"><code>3dd1553</code></a><br/>
+<<<<<<< HEAD
       <sub>2026-02-16</sub><br/>
       <sub>am2998/am2998</sub><br/><br/>
       Add README recent commits cards
@@ -44,6 +45,22 @@ DevOps | Cloud Engineer
       <sub>2026-02-07</sub><br/>
       <sub>am2998/am2998</sub><br/><br/>
       Update job title formatting in README
+=======
+      <sub>2026-02-16</sub><br/><br/>
+      <sub>Add README recent commits cards</sub>
+    </td>
+    <td align="left" valign="top" width="33%">
+      <b>Commit</b><br/>
+      <code>-</code><br/>
+      <sub>-</sub><br/><br/>
+      <sub>No data</sub>
+    </td>
+    <td align="left" valign="top" width="33%">
+      <b>Commit</b><br/>
+      <code>-</code><br/>
+      <sub>-</sub><br/><br/>
+      <sub>No data</sub>
+>>>>>>> 399cf799266f769f32dd8f9a0b77624b8fe3c9ba
     </td>
   </tr>
 </table>
