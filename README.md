@@ -25,6 +25,12 @@ DevOps | Cloud Engineer
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/9d3dcf809993e4cdc3db7ce88cdcb744f10419d9"><code>9d3dcf8</code></a></b><br/>
+      2026-02-16<br/>
+      am2998/am2998<br/><br/>
+      <b>Increase number of commits</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/ec8d50319bc747e978407e482013e9cb8b2ec5eb"><code>ec8d503</code></a></b><br/>
       2026-02-16<br/>
       am2998/am2998<br/><br/>
@@ -47,12 +53,6 @@ DevOps | Cloud Engineer
       2026-02-15<br/>
       am2998/Arch-btw<br/><br/>
       <b>Update zrepl snap retention filter</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/89e4fa5f6d0dbb5ea2e92e580c89300701e65e56"><code>89e4fa5</code></a></b><br/>
-      2026-02-14<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Update credits section in readme</b>
     </td>
   </tr>
 </table>
