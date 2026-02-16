@@ -26,21 +26,21 @@ DevOps | Cloud Engineer
   <tr>
     <td align="left" valign="top" width="33%">
       <b>Commit 1</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/6ffbb24"><code>6ffbb24</code></a><br/>
-      <sub>2026-02-12</sub><br/><br/>
-      <sub>Remove personal statement from README</sub>
+      <a href="https://github.com/am2998/am2998/commit/3dd1553"><code>3dd1553</code></a><br/>
+      <sub>2026-02-16</sub><br/><br/>
+      <sub>Add README recent commits cards</sub>
     </td>
     <td align="left" valign="top" width="33%">
-      <b>Commit 2</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/8993a05"><code>8993a05</code></a><br/>
-      <sub>2026-02-07</sub><br/><br/>
-      <sub>Update job title formatting in README</sub>
+      <b>Commit</b><br/>
+      <code>-</code><br/>
+      <sub>-</sub><br/><br/>
+      <sub>No data</sub>
     </td>
     <td align="left" valign="top" width="33%">
-      <b>Commit 3</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/9fa7629"><code>9fa7629</code></a><br/>
-      <sub>2026-02-07</sub><br/><br/>
-      <sub>Fix formatting in README.md for whoami section</sub>
+      <b>Commit</b><br/>
+      <code>-</code><br/>
+      <sub>-</sub><br/><br/>
+      <sub>No data</sub>
     </td>
   </tr>
 </table>
