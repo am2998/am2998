@@ -22,45 +22,25 @@ DevOps | Cloud Engineer
 ## Recent Commits
 
 <!-- RECENT_COMMITS_START -->
-<table width="100%">
+<table width="100%" cellpadding="14" cellspacing="0">
   <tr>
-    <td align="left" valign="top" width="33%">
-      <b>Commit 1</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/3dd1553"><code>3dd1553</code></a><br/>
-<<<<<<< HEAD
-      <sub>2026-02-16</sub><br/>
-      <sub>am2998/am2998</sub><br/><br/>
-      Add README recent commits cards
+    <td align="left" valign="top" width="33.33%">
+      <b><a href="https://github.com/am2998/am2998/commit/07af3e5"><code>07af3e5</code></a></b><br/>
+      2026-02-16<br/>
+      am2998/am2998<br/><br/>
+      <b>Update cards logic</b>
     </td>
-    <td align="left" valign="top" width="33%">
-      <b>Commit 2</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/6ffbb24"><code>6ffbb24</code></a><br/>
-      <sub>2026-02-12</sub><br/>
-      <sub>am2998/am2998</sub><br/><br/>
-      Remove personal statement from README
+    <td align="left" valign="top" width="33.33%">
+      <b><a href="https://github.com/am2998/am2998/commit/399cf79"><code>399cf79</code></a></b><br/>
+      2026-02-16<br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
     </td>
-    <td align="left" valign="top" width="33%">
-      <b>Commit 3</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/8993a05"><code>8993a05</code></a><br/>
-      <sub>2026-02-07</sub><br/>
-      <sub>am2998/am2998</sub><br/><br/>
-      Update job title formatting in README
-=======
-      <sub>2026-02-16</sub><br/><br/>
-      <sub>Add README recent commits cards</sub>
-    </td>
-    <td align="left" valign="top" width="33%">
-      <b>Commit</b><br/>
-      <code>-</code><br/>
-      <sub>-</sub><br/><br/>
-      <sub>No data</sub>
-    </td>
-    <td align="left" valign="top" width="33%">
-      <b>Commit</b><br/>
-      <code>-</code><br/>
-      <sub>-</sub><br/><br/>
-      <sub>No data</sub>
->>>>>>> 399cf799266f769f32dd8f9a0b77624b8fe3c9ba
+    <td align="left" valign="top" width="33.33%">
+      <b><a href="https://github.com/am2998/am2998/commit/3dd1553"><code>3dd1553</code></a></b><br/>
+      2026-02-16<br/>
+      am2998/am2998<br/><br/>
+      <b>Add README recent commits cards</b>
     </td>
   </tr>
 </table>

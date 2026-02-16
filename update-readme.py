@@ -25,6 +25,10 @@ class CommitEntry:
     repo_name: str | None = None
 
 
+def is_merge_message(message: str) -> bool:
+    return message.strip().lower().startswith("merge")
+
+
 def get_recent_commits(limit: int = 3) -> list[CommitEntry]:
     username = detect_github_username()
     if username:
@@ -51,9 +55,10 @@ def detect_github_username() -> str | None:
 
 def get_recent_commits_from_github(username: str, limit: int = 3) -> list[CommitEntry]:
     query = parse.quote(f"author:{username}", safe="")
+    per_page = min(max(limit * 10, 30), 100)
     url = (
         "https://api.github.com/search/commits"
-        f"?q={query}&sort=author-date&order=desc&per_page={limit}"
+        f"?q={query}&sort=author-date&order=desc&per_page={per_page}"
     )
 
     headers = {
@@ -82,6 +87,9 @@ def get_recent_commits_from_github(username: str, limit: int = 3) -> list[Commit
 
         commit_obj = item.get("commit", {}) or {}
         message = str(commit_obj.get("message", "")).splitlines()[0].strip()
+        if is_merge_message(message):
+            continue
+
         author_obj = commit_obj.get("author", {}) or {}
         date = str(author_obj.get("date", ""))[:10]
         repo_name = str((item.get("repository", {}) or {}).get("full_name", "")).strip() or None
@@ -107,11 +115,13 @@ def get_recent_commits_from_github(username: str, limit: int = 3) -> list[Commit
 
 
 def get_recent_commits_from_local_repo(limit: int = 3) -> list[CommitEntry]:
+    fetch_count = max(limit * 10, 30)
     output = subprocess.check_output(
         [
             "git",
             "log",
-            f"-n{limit}",
+            "--no-merges",
+            f"-n{fetch_count}",
             "--pretty=format:%h%x09%s%x09%ad",
             "--date=short",
         ],
@@ -126,6 +136,8 @@ def get_recent_commits_from_local_repo(limit: int = 3) -> list[CommitEntry]:
     commits: list[CommitEntry] = []
     for line in output.splitlines():
         commit_hash, message, date = line.split("\t", maxsplit=2)
+        if is_merge_message(message):
+            continue
         commit_url = f"{repo_url}/commit/{commit_hash}" if repo_url else None
         commits.append(
             CommitEntry(
@@ -136,6 +148,8 @@ def get_recent_commits_from_local_repo(limit: int = 3) -> list[CommitEntry]:
                 repo_name=repo_name,
             )
         )
+        if len(commits) >= limit:
+            break
     return commits
 
 
@@ -183,7 +197,7 @@ def get_repo_name_from_url(repo_url: str) -> str | None:
     return f"{owner}/{repo}"
 
 
-def shorten_message(message: str, max_chars: int = 72) -> str:
+def shorten_message(message: str, max_chars: int = 96) -> str:
     if len(message) <= max_chars:
         return message
     return message[: max_chars - 3].rstrip() + "..."
@@ -206,26 +220,30 @@ def build_commits_section(commits: list[CommitEntry]) -> str:
                 hash_block = f"<code>{safe_hash}</code>"
 
             cells.append(
-                "    <td align=\"left\" valign=\"top\" width=\"33%\">\n"
-                f"      <b>Commit {index}</b><br/>\n"
-                f"      {hash_block}<br/>\n"
-                f"      <sub>{safe_date}</sub><br/>\n"
-                f"      <sub>{safe_repo if safe_repo else '-'}</sub><br/><br/>\n"
-                f"      {safe_message}\n"
+                "    <td align=\"left\" valign=\"top\" width=\"33.33%\">\n"
+                f"      <b>{hash_block}</b><br/>\n"
+                f"      {safe_date}<br/>\n"
+                f"      {safe_repo if safe_repo else '-'}<br/><br/>\n"
+                f"      <b>{safe_message}</b>\n"
                 "    </td>"
             )
 
         while len(cells) < DISPLAY_COLUMNS:
             cells.append(
-                "    <td align=\"left\" valign=\"top\" width=\"33%\">\n"
-                "      <b>Commit</b><br/>\n"
+                "    <td align=\"left\" valign=\"top\" width=\"33.33%\">\n"
                 "      <code>-</code><br/>\n"
-                "      <sub>-</sub><br/><br/>\n"
-                "      No data\n"
+                "      -<br/>\n"
+                "      -<br/><br/>\n"
+                "      <b>No data</b>\n"
                 "    </td>"
             )
 
-        body = "<table width=\"100%\">\n  <tr>\n" + "\n".join(cells) + "\n  </tr>\n</table>"
+        body = (
+            "<table width=\"100%\" cellpadding=\"14\" cellspacing=\"0\">\n"
+            "  <tr>\n"
+            + "\n".join(cells)
+            + "\n  </tr>\n</table>"
+        )
 
     return (
         f"{SECTION_TITLE}\n\n"
