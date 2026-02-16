@@ -25,34 +25,34 @@ DevOps | Cloud Engineer
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/ec8d503"><code>ec8d503</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/ec8d50319bc747e978407e482013e9cb8b2ec5eb"><code>ec8d503</code></a></b><br/>
       2026-02-16<br/>
       am2998/am2998<br/><br/>
       <b>Improve cards</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/51b6c70"><code>51b6c70</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/am2998<br/><br/>
-      <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/07af3e5"><code>07af3e5</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/07af3e58f1b1793b085fd420b7c4d441248a5cbf"><code>07af3e5</code></a></b><br/>
       2026-02-16<br/>
       am2998/am2998<br/><br/>
       <b>Update cards logic</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/399cf79"><code>399cf79</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/am2998<br/><br/>
-      <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/3dd1553"><code>3dd1553</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/3dd1553f3c4e6530ae8cf15ed87b33cb7227f9a1"><code>3dd1553</code></a></b><br/>
       2026-02-16<br/>
       am2998/am2998<br/><br/>
       <b>Add README recent commits cards</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/8ddc2ec132257d084c1a56fee6e74a568d95c4d6"><code>8ddc2ec</code></a></b><br/>
+      2026-02-15<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Update zrepl snap retention filter</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/89e4fa5f6d0dbb5ea2e92e580c89300701e65e56"><code>89e4fa5</code></a></b><br/>
+      2026-02-14<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Update credits section in readme</b>
     </td>
   </tr>
 </table>
