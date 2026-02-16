@@ -19,4 +19,30 @@ DevOps | Cloud Engineer
   <img src="certs/ejpt.png" alt="eJPT" width="100" title="eLearnSecurity Junior Penetration Tester (eJPT)" />
 </div>
 
+## Recent Commits
+
+<!-- RECENT_COMMITS_START -->
+<table>
+  <tr>
+    <td align="left" valign="top" width="33%">
+      <b>Commit 1</b><br/>
+      <a href="https://github.com/am2998/am2998/commit/6ffbb24"><code>6ffbb24</code></a><br/>
+      <sub>2026-02-12</sub><br/><br/>
+      <sub>Remove personal statement from README</sub>
+    </td>
+    <td align="left" valign="top" width="33%">
+      <b>Commit 2</b><br/>
+      <a href="https://github.com/am2998/am2998/commit/8993a05"><code>8993a05</code></a><br/>
+      <sub>2026-02-07</sub><br/><br/>
+      <sub>Update job title formatting in README</sub>
+    </td>
+    <td align="left" valign="top" width="33%">
+      <b>Commit 3</b><br/>
+      <a href="https://github.com/am2998/am2998/commit/9fa7629"><code>9fa7629</code></a><br/>
+      <sub>2026-02-07</sub><br/><br/>
+      <sub>Fix formatting in README.md for whoami section</sub>
+    </td>
+  </tr>
+</table>
+<!-- RECENT_COMMITS_END -->
 
