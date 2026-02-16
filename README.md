@@ -26,41 +26,24 @@ DevOps | Cloud Engineer
   <tr>
     <td align="left" valign="top" width="33%">
       <b>Commit 1</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/3dd1553"><code>3dd1553</code></a><br/>
-<<<<<<< HEAD
+      <a href="https://github.com/am2998/am2998/commit/3dd1553f3c4e6530ae8cf15ed87b33cb7227f9a1"><code>3dd1553</code></a><br/>
       <sub>2026-02-16</sub><br/>
       <sub>am2998/am2998</sub><br/><br/>
       Add README recent commits cards
     </td>
     <td align="left" valign="top" width="33%">
       <b>Commit 2</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/6ffbb24"><code>6ffbb24</code></a><br/>
-      <sub>2026-02-12</sub><br/>
-      <sub>am2998/am2998</sub><br/><br/>
-      Remove personal statement from README
+      <a href="https://github.com/am2998/Arch-btw/commit/8ddc2ec132257d084c1a56fee6e74a568d95c4d6"><code>8ddc2ec</code></a><br/>
+      <sub>2026-02-15</sub><br/>
+      <sub>am2998/Arch-btw</sub><br/><br/>
+      Update zrepl snap retention filter
     </td>
     <td align="left" valign="top" width="33%">
       <b>Commit 3</b><br/>
-      <a href="https://github.com/am2998/am2998/commit/8993a05"><code>8993a05</code></a><br/>
-      <sub>2026-02-07</sub><br/>
-      <sub>am2998/am2998</sub><br/><br/>
-      Update job title formatting in README
-=======
-      <sub>2026-02-16</sub><br/><br/>
-      <sub>Add README recent commits cards</sub>
-    </td>
-    <td align="left" valign="top" width="33%">
-      <b>Commit</b><br/>
-      <code>-</code><br/>
-      <sub>-</sub><br/><br/>
-      <sub>No data</sub>
-    </td>
-    <td align="left" valign="top" width="33%">
-      <b>Commit</b><br/>
-      <code>-</code><br/>
-      <sub>-</sub><br/><br/>
-      <sub>No data</sub>
->>>>>>> 399cf799266f769f32dd8f9a0b77624b8fe3c9ba
+      <a href="https://github.com/am2998/Arch-btw/commit/89e4fa5f6d0dbb5ea2e92e580c89300701e65e56"><code>89e4fa5</code></a><br/>
+      <sub>2026-02-14</sub><br/>
+      <sub>am2998/Arch-btw</sub><br/><br/>
+      Update credits section in readme
     </td>
   </tr>
 </table>
