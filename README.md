@@ -25,34 +25,34 @@ DevOps | Cloud Engineer
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/78725f73405808aa28798a8cdb185acf2ba5035e"><code>78725f7</code></a></b><br/>
+      2026-02-17<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Add signature verification for ZFSBootMenu</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/f759877d7008e4bff6219b21e83cc0c39ba3b9ec"><code>f759877</code></a></b><br/>
+      2026-02-17<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Fix fstab generation to overwrite instead of append ZFS entries</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/9e272a4270d3e7b18591aa42b3b569845913ce47"><code>9e272a4</code></a></b><br/>
+      2026-02-17<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Improve desktop installation prompt handling and enhance cleanup process for ZFS datasets</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/54973b5eef0095b6097910d02af14f88f65f3231"><code>54973b5</code></a></b><br/>
+      2026-02-17<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Enhance archzfs.sh to prompt for COSMIC desktop installation</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/Arch-btw/commit/8c2a84b1a0f32a9f55f0a61b56419d89ff39a80d"><code>8c2a84b</code></a></b><br/>
       2026-02-16<br/>
       am2998/Arch-btw<br/><br/>
       <b>Reorder installation methods in README for clarity</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/94e2aca2fcbed0c343e2245ea157f1e50b0bfeb0"><code>94e2aca</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Add &#x27;task&#x27; package to extra packages installation in archzfs.sh</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/6b57a86e7ec83e45b208eb6e6c67893ba09bcd32"><code>6b57a86</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Add installation of extra packages in archzfs.sh</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/9d3dcf809993e4cdc3db7ce88cdcb744f10419d9"><code>9d3dcf8</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/am2998<br/><br/>
-      <b>Increase number of commits</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/ec8d50319bc747e978407e482013e9cb8b2ec5eb"><code>ec8d503</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/am2998<br/><br/>
-      <b>Improve cards</b>
     </td>
   </tr>
 </table>
