@@ -44,34 +44,34 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/78725f73405808aa28798a8cdb185acf2ba5035e"><code>78725f7</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/ef354c240469e2005a6d59f33bb212bef20bd178"><code>ef354c2</code></a></b><br/>
       2026-02-17<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Add signature verification for ZFSBootMenu</b>
+      am2998/am2998<br/><br/>
+      <b>Update README.md with personal information</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/f759877d7008e4bff6219b21e83cc0c39ba3b9ec"><code>f759877</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/2f47996aa709c5ddd22bd1ad9c1b228d2dfd4c14"><code>2f47996</code></a></b><br/>
       2026-02-17<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Fix fstab generation to overwrite instead of append ZFS entries</b>
+      am2998/am2998<br/><br/>
+      <b>Update skills command in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/9e272a4270d3e7b18591aa42b3b569845913ce47"><code>9e272a4</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/77fc07ca17abdb00172d91432f2709f0a0b22de4"><code>77fc07c</code></a></b><br/>
       2026-02-17<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Improve desktop installation prompt handling and enhance cleanup process for ZFS datasets</b>
+      am2998/am2998<br/><br/>
+      <b>Modify README with updated uptime and project info</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/54973b5eef0095b6097910d02af14f88f65f3231"><code>54973b5</code></a></b><br/>
+      <b><a href="https://github.com/am2998/Arch-btw/commit/ac121f64be20c6a7ae72a71730512fc34a384f49"><code>ac121f6</code></a></b><br/>
       2026-02-17<br/>
       am2998/Arch-btw<br/><br/>
-      <b>Enhance archzfs.sh to prompt for COSMIC desktop installation</b>
+      <b>Update Quick Start section in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/8c2a84b1a0f32a9f55f0a61b56419d89ff39a80d"><code>8c2a84b</code></a></b><br/>
-      2026-02-16<br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Reorder installation methods in README for clarity</b>
+      <b><a href="https://github.com/am2998/am2998/commit/94f3d260109afd4949012f5832883726fc5ea34b"><code>94f3d26</code></a></b><br/>
+      2026-02-17<br/>
+      am2998/am2998<br/><br/>
+      <b>enhance readme sections</b>
     </td>
   </tr>
 </table>
