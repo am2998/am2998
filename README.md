@@ -12,7 +12,7 @@
               -+oooooo+:                 Locale: it_IT.UTF-8 | en_US.UTF-8
             `/:-:++oooo+:                Linkedin: www.linkedin.com/in/andrea-moscato
            `/++++/+++++++:               ---------------------------------------------
-          `/++++++++++++++:              $ echo $SKILLS
+          `/++++++++++++++:              $ pacman -Qe
          `/+++ooooooooooooo/`            Cloud: Azure
         ./ooosssso++osssssso+`           Containers: Docker | Kubernetes
        .oossssso-````/ossssss+`          IaC: Terraform
