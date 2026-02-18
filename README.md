@@ -8,19 +8,19 @@
                                     .o+`                    --------------------
                                    `ooo/                    $ whoami
                                   `+oooo:                   Role: DevOps | Cloud Engineer
-                                 `+oooooo:                  Uptime: 27 years
+                                 `+oooooo:                  Uptime: 27 years 4 months
                                  -+oooooo+:                 Locale: it_IT.UTF-8 | en_US.UTF-8
                                `/:-:++oooo+:                Linkedin: www.linkedin.com/in/andrea-moscato
                               `/++++/+++++++:               --------------------
-                             `/++++++++++++++:              $ echo $SKILLS
+                             `/++++++++++++++:              $ pacman -Qe
                             `/+++ooooooooooooo/`            Cloud: Azure
                            ./ooosssso++osssssso+`           Containers: Docker | Kubernetes
                           .oossssso-````/ossssss+`          IaC: Terraform
                          -osssssso.      :ssssssso.         CI/CD: Jenkins | GitHub Actions
-                        :osssssss/        osssso+++.        Linux: Arch | ZFS | zsh
+                        :osssssss/        osssso+++.        Linux: Arch
                        /ossssssss/        +ssssooo/-        --------------------
                      `/ossssso+/:-        -:/+osssso+-      $ ps aux
-                    `+sso+:-`                 `.-/+oso:     Arch-btw: Arch + ZFS installer ISO
+                    `+sso+:-`                 `.-/+oso:     Arch-btw: Arch with ZFS
                    `++:.                           `-/+/    RAG-cli: RAG orchestrated by LangGraph
                    .`                                 `/    GitOps-Project: ArgoCD with K8S
 ```
