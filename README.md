@@ -4,30 +4,30 @@
 
 
 ```text
-                  -`                     am2998@github
-                 .o+`                    --------------------
-                `ooo/                    $ whoami
-               `+oooo:                   Role: DevOps | Cloud Engineer
-              `+oooooo:                  Uptime: 27 years
-              -+oooooo+:                 Locale: it_IT.UTF-8 | en_US.UTF-8
-            `/:-:++oooo+:                Linkedin: www.linkedin.com/in/andrea-moscato
-           `/++++/+++++++:               --------------------
-          `/++++++++++++++:              $ echo $SKILLS
-         `/+++ooooooooooooo/`            Cloud: Azure
-        ./ooosssso++osssssso+`           Containers: Docker | Kubernetes
-       .oossssso-````/ossssss+`          IaC: Terraform
-      -osssssso.      :ssssssso.         CI/CD: Jenkins | GitHub Actions
-     :osssssss/        osssso+++.        Linux: Arch | ZFS | zsh
-    /ossssssss/        +ssssooo/-        --------------------
-  `/ossssso+/:-        -:/+osssso+-      $ ps aux
- `+sso+:-`                 `.-/+oso:     Arch-btw: Arch + ZFS installer ISO
-`++:.                           `-/+/    RAG-cli: RAG orchestrated by LangGraph
-.`                                 `/    GitOps-Project: ArgoCD with K8S
+                                       -`                     am2998@github
+                                      .o+`                    --------------------
+                                     `ooo/                    $ whoami
+                                    `+oooo:                   Role: DevOps | Cloud Engineer
+                                   `+oooooo:                  Uptime: 27 years
+                                   -+oooooo+:                 Locale: it_IT.UTF-8 | en_US.UTF-8
+                                 `/:-:++oooo+:                Linkedin: www.linkedin.com/in/andrea-moscato
+                                `/++++/+++++++:               --------------------
+                               `/++++++++++++++:              $ echo $SKILLS
+                              `/+++ooooooooooooo/`            Cloud: Azure
+                             ./ooosssso++osssssso+`           Containers: Docker | Kubernetes
+                            .oossssso-````/ossssss+`          IaC: Terraform
+                           -osssssso.      :ssssssso.         CI/CD: Jenkins | GitHub Actions
+                          :osssssss/        osssso+++.        Linux: Arch | ZFS | zsh
+                         /ossssssss/        +ssssooo/-        --------------------
+                       `/ossssso+/:-        -:/+osssso+-      $ ps aux
+                      `+sso+:-`                 `.-/+oso:     Arch-btw: Arch + ZFS installer ISO
+                     `++:.                           `-/+/    RAG-cli: RAG orchestrated by LangGraph
+                     .`                                 `/    GitOps-Project: ArgoCD with K8S
 ```
 
 ## Certifications
 
-<div>
+<div>\
   <img src="certs/AZ900.svg" alt="AZ-900: Azure Fundamentals" width="100" title="AZ-900: Microsoft Azure Fundamentals" />
   <img src="certs/AZ104.svg" alt="AZ-104: Azure Administrator" width="100" title="AZ-104: Microsoft Azure Administrator" />
   <img src="certs/AZ305.svg" alt="AZ-305: Azure Solutions Architect" width="100" title="AZ-305: Azure Solutions Architect Expert" />
