@@ -17,10 +17,10 @@
         ./ooosssso++osssssso+`           Containers: Docker | Kubernetes
        .oossssso-````/ossssss+`          IaC: Terraform
       -osssssso.      :ssssssso.         CI/CD: Jenkins | GitHub Actions
-     :osssssss/        osssso+++.        Linux: Arch | ZFS | zsh
+     :osssssss/        osssso+++.        Linux: Arch
     /ossssssss/        +ssssooo/-        
   `/ossssso+/:-        -:/+osssso+-      $ ps aux
- `+sso+:-`                 `.-/+oso:     Arch-btw: Arch with ZFS filesystem ISO
+ `+sso+:-`                 `.-/+oso:     Arch-btw: Arch with ZFS
 `++:.                           `-/+/    RAG-cli: RAG orchestrated by LangGraph
 .`                                 `/    GitOps-Project: ArgoCD with AKS
 ```
