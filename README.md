@@ -44,6 +44,12 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/ccf78cb143f359f52e11487989b4b671c70894a4"><code>ccf78cb</code></a></b><br/>
+      2026-02-18<br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Add &#x27;ranger&#x27; to extra packages installation</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/ef354c240469e2005a6d59f33bb212bef20bd178"><code>ef354c2</code></a></b><br/>
       2026-02-17<br/>
       am2998/am2998<br/><br/>
@@ -66,12 +72,6 @@
       2026-02-17<br/>
       am2998/Arch-btw<br/><br/>
       <b>Update Quick Start section in README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/94f3d260109afd4949012f5832883726fc5ea34b"><code>94f3d26</code></a></b><br/>
-      2026-02-17<br/>
-      am2998/am2998<br/><br/>
-      <b>enhance readme sections</b>
     </td>
   </tr>
 </table>
