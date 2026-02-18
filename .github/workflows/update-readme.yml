@@ -40,6 +40,7 @@ jobs:
           GH_USERNAME: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_VISIBILITY: ${{ github.event.repository.visibility }}
         run: python3 update-readme.py
 
       - name: Commit and push changes

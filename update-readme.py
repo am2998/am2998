@@ -83,6 +83,10 @@ def get_recent_commits_from_github(
     commits: list[CommitEntry] = []
     seen_hashes: set[str] = set()
     for item in items:
+        repo_obj = item.get("repository", {}) or {}
+        if not is_public_repository(repo_obj):
+            continue
+
         sha = str(item.get("sha", "")).strip()
         short_hash = sha[:7]
         if not short_hash or short_hash in seen_hashes:
@@ -95,7 +99,7 @@ def get_recent_commits_from_github(
 
         author_obj = commit_obj.get("author", {}) or {}
         date = str(author_obj.get("date", ""))[:10]
-        repo_name = str((item.get("repository", {}) or {}).get("full_name", "")).strip() or None
+        repo_name = str(repo_obj.get("full_name", "")).strip() or None
         commit_url = str(item.get("html_url", "")).strip() or None
 
         if not message or not date:
@@ -118,6 +122,9 @@ def get_recent_commits_from_github(
 
 
 def get_recent_commits_from_local_repo(limit: int = COMMIT_LIMIT) -> list[CommitEntry]:
+    if not is_current_repo_public():
+        return []
+
     fetch_count = max(limit * 10, 30)
     output = subprocess.check_output(
         [
@@ -154,6 +161,25 @@ def get_recent_commits_from_local_repo(limit: int = COMMIT_LIMIT) -> list[Commit
         if len(commits) >= limit:
             break
     return commits
+
+
+def is_public_repository(repo_obj: dict) -> bool:
+    private_flag = repo_obj.get("private")
+    if isinstance(private_flag, bool):
+        return not private_flag
+
+    visibility = str(repo_obj.get("visibility", "")).strip().lower()
+    if visibility:
+        return visibility == "public"
+
+    return True
+
+
+def is_current_repo_public() -> bool:
+    visibility = str(os.getenv("GITHUB_REPOSITORY_VISIBILITY", "")).strip().lower()
+    if visibility:
+        return visibility == "public"
+    return True
 
 
 def get_repo_web_url() -> str | None:
