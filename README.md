@@ -44,6 +44,12 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/f0155f78e608ba7dc3d3ddb273ffe7c5c7d78d14"><code>f0155f7</code></a></b><br/>
+      2026-02-19<br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/2ebabbce759dc5d3580aa39425d18ec1922eac42"><code>2ebabbc</code></a></b><br/>
       2026-02-19<br/>
       am2998/am2998<br/><br/>
@@ -63,12 +69,6 @@
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/d8f2023bda27b718f75c85cc4dc3a6400851402f"><code>d8f2023</code></a></b><br/>
-      2026-02-18<br/>
-      am2998/am2998<br/><br/>
-      <b>Update fastfetch</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/bc21b9f3b2b26929279234ea249a21e43cb420e8"><code>bc21b9f</code></a></b><br/>
       2026-02-18<br/>
       am2998/am2998<br/><br/>
       <b>Update fastfetch</b>
