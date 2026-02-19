@@ -44,6 +44,12 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/2ebabbce759dc5d3580aa39425d18ec1922eac42"><code>2ebabbc</code></a></b><br/>
+      2026-02-19<br/>
+      am2998/am2998<br/><br/>
+      <b>Update workflow</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/Arch-btw/commit/ef6db6ecf8b5e73b256ef3e8bd68216382e41798"><code>ef6db6e</code></a></b><br/>
       2026-02-18<br/>
       am2998/Arch-btw<br/><br/>
@@ -66,12 +72,6 @@
       2026-02-18<br/>
       am2998/am2998<br/><br/>
       <b>Update fastfetch</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/d70c35a2a054b2d264fbfd4da55c76590d374c1a"><code>d70c35a</code></a></b><br/>
-      2026-02-18<br/>
-      am2998/am2998<br/><br/>
-      <b>refactor: enhance visibility checks for repository in update-readme.py</b>
     </td>
   </tr>
 </table>
