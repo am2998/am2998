@@ -45,9 +45,17 @@ jobs:
 
       - name: Commit and push changes
         if: github.event_name == 'workflow_dispatch' || steps.rome_time.outputs.run == 'true'
+        env:
+          COMMIT_NAME: ${{ vars.COMMIT_NAME }}
+          COMMIT_EMAIL: ${{ vars.COMMIT_EMAIL }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$COMMIT_NAME" ] || [ -z "$COMMIT_EMAIL" ]; then
+            echo "Missing required repository variables: COMMIT_NAME and COMMIT_EMAIL"
+            echo "Set them in Settings > Secrets and variables > Actions > Variables"
+            exit 1
+          fi
+          git config user.name "$COMMIT_NAME"
+          git config user.email "$COMMIT_EMAIL"
           git add README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
