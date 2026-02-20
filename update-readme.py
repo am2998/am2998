@@ -241,7 +241,6 @@ def build_commits_section(commits: list[CommitEntry]) -> str:
         for commit in commits[:DISPLAY_COLUMNS]:
             safe_hash = html.escape(commit.short_hash)
             safe_message = html.escape(shorten_message(commit.message))
-            safe_date = html.escape(commit.date)
             safe_repo = html.escape(commit.repo_name) if commit.repo_name else None
             if commit.commit_url:
                 safe_commit_url = html.escape(commit.commit_url, quote=True)
@@ -252,7 +251,6 @@ def build_commits_section(commits: list[CommitEntry]) -> str:
             cells.append(
                 f"    <td align=\"left\" valign=\"top\" width=\"{column_width}\">\n"
                 f"      <b>{hash_block}</b><br/>\n"
-                f"      {safe_date}<br/>\n"
                 f"      {safe_repo if safe_repo else '-'}<br/><br/>\n"
                 f"      <b>{safe_message}</b>\n"
                 "    </td>"

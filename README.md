@@ -45,31 +45,26 @@
   <tr>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/9cc887d948f2f53da9351b950e853d5aa704e1b6"><code>9cc887d</code></a></b><br/>
-      2026-02-19<br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/f61e3b6f8ee2c02db3fe5a7dad455b97449d1a80"><code>f61e3b6</code></a></b><br/>
-      2026-02-19<br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/f0155f78e608ba7dc3d3ddb273ffe7c5c7d78d14"><code>f0155f7</code></a></b><br/>
-      2026-02-19<br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/2ebabbce759dc5d3580aa39425d18ec1922eac42"><code>2ebabbc</code></a></b><br/>
-      2026-02-19<br/>
       am2998/am2998<br/><br/>
       <b>Update workflow</b>
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/Arch-btw/commit/ef6db6ecf8b5e73b256ef3e8bd68216382e41798"><code>ef6db6e</code></a></b><br/>
-      2026-02-18<br/>
       am2998/Arch-btw<br/><br/>
       <b>Remove ranger from extra packages</b>
     </td>
