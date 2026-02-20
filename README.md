@@ -44,6 +44,12 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/9cc887d948f2f53da9351b950e853d5aa704e1b6"><code>9cc887d</code></a></b><br/>
+      2026-02-19<br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/f61e3b6f8ee2c02db3fe5a7dad455b97449d1a80"><code>f61e3b6</code></a></b><br/>
       2026-02-19<br/>
       am2998/am2998<br/><br/>
@@ -66,12 +72,6 @@
       2026-02-18<br/>
       am2998/Arch-btw<br/><br/>
       <b>Remove ranger from extra packages</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/3a20b6f6286f9a94b664fd62065cc87e69606b86"><code>3a20b6f</code></a></b><br/>
-      2026-02-18<br/>
-      am2998/am2998<br/><br/>
-      <b>Update fastfetch</b>
     </td>
   </tr>
 </table>
