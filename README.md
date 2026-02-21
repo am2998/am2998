@@ -44,6 +44,16 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/Arch-btw/commit/ba42bc83974be1448339e29c3ad84cb4524e64b7"><code>ba42bc8</code></a></b><br/>
+      am2998/Arch-btw<br/><br/>
+      <b>Replace Cosmic DE with Niri</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/44f64c878690ab9307be242c4124b18b8e9e1fe8"><code>44f64c8</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/51479da4c5ad7bc9ae23daf70b79787053c7bfa5"><code>51479da</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update commit cards structure</b>
@@ -55,16 +65,6 @@
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/9cc887d948f2f53da9351b950e853d5aa704e1b6"><code>9cc887d</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/f61e3b6f8ee2c02db3fe5a7dad455b97449d1a80"><code>f61e3b6</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/f0155f78e608ba7dc3d3ddb273ffe7c5c7d78d14"><code>f0155f7</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
     </td>
