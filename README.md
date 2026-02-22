@@ -51,29 +51,29 @@ GitOps-Project: ArgoCD with K8S</pre>
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/5aea48085b109cedc648106e1e3deea2e19f6612"><code>5aea480</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/6c4b561dc781d58681d42d35eff37361d6cce36e"><code>6c4b561</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>Update README with new typing SVG message</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/0e66fc975225a478a61484b4c7baefa26ba30644"><code>0e66fc9</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/e718aa7e908b802986fc594dd1577c49629df7fd"><code>e718aa7</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/578921e159c89fda0ff47b1e7bf4701f46df3f72"><code>578921e</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/58c3c2d75f7c3d07470cdedc8b3e06fca6334aa1"><code>58c3c2d</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/b82a603efbf28d769ac752c906ab216c0800afcf"><code>b82a603</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
+      <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/b39cf1c84562c2df0128cc35faef3a35eff90eb1"><code>b39cf1c</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/9e423da68084d56d2aabd6ab5f7b4ce1e1b503d9"><code>9e423da</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/ba42bc83974be1448339e29c3ad84cb4524e64b7"><code>ba42bc8</code></a></b><br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Replace Cosmic DE with Niri</b>
+      <b>Update readme</b>
     </td>
   </tr>
 </table>
