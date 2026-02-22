@@ -3,7 +3,7 @@
 </p>
 
 
-<table cellpadding="0" cellspacing="0" border="0">
+<table align="center" cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td valign="top">
       <img src="assets/nixos-logo.png" alt="NixOS logo" width="352" height="352" />
