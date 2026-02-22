@@ -1,28 +1,29 @@
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+Arch+btw+%F0%9F%90%A7;In+love+with+ZFS+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+Nix+btw+%F0%9F%90%A7;In+love+with+Linux+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 
 ```text
-                  -`                     am2998@github
-                .o+`                     -------------
-                `ooo/                    $ whoami
-              `+oooo:                    Role: DevOps | Cloud Engineer
-              `+oooooo:                  Uptime: 27 years 4 months
-              -+oooooo+:                 Locale: it_IT.UTF-8 | en_US.UTF-8
-            `/:-:++oooo+:                Linkedin: www.linkedin.com/in/andrea-moscato
-          `/++++/+++++++:                
-          `/++++++++++++++:              $ pacman -Qe
-        `/+++ooooooooooooo/`             Cloud: Azure
-        ./ooosssso++osssssso+`           Containers: Docker | Kubernetes
-      .oossssso-````/ossssss+`           IaC: Terraform
-      -osssssso.      :ssssssso.         CI/CD: Jenkins | GitHub Actions
-    :osssssss/        osssso+++.         Linux: Arch
-    /ossssssss/        +ssssooo/-        
-  `/ossssso+/:-        -:/+osssso+-      $ ps aux
-`+sso+:-`                 `.-/+oso:      Arch-btw: Arch with ZFS
-`++:.                           `-/+/    RAG-cli: RAG orchestrated by LangGraph
-.`                                 `/    GitOps-Project: ArgoCD with K8S
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖             am2998@github
+          ▜███▙       ▜███▙  ▟███▛             -------------
+           ▜███▙       ▜███▙▟███▛              $ whoami
+            ▜███▙       ▜██████▛               Role: DevOps | Cloud Engineer
+     ▟█████████████████▙ ▜████▛     ▟▙         Uptime: 27 years 4 months
+    ▟███████████████████▙ ▜███▙    ▟██▙        Locale: it_IT.UTF-8 | en_US.UTF-8
+           ▄▄▄▄▖           ▜███▙  ▟███▛        Linkedin: www.linkedin.com/in/andrea-moscato
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛          $ ls /proc/skills
+▟███████████▛                  ▟██████████▙    Cloud: Azure
+▜██████████▛                  ▟███████████▛    Containers: Docker | Kubernetes
+      ▟███▛ ▟▙               ▟███▛             IaC: Terraform
+     ▟███▛ ▟██▙             ▟███▛              CI/CD: Jenkins | GitHub Actions
+    ▟███▛  ▜███▙           ▝▀▀▀▀               Linux: Arch
+    ▜██▛    ▜███▙ ▜██████████████████▛     
+     ▜▛     ▟████▙ ▜████████████████▛          $ ps aux
+           ▟██████▙         ▜███▙              Arch-btw: Arch with ZFS
+          ▟███▛▜███▙         ▜███▙             RAG-cli: RAG orchestrated by LangGraph
+         ▟███▛  ▜███▙         ▜███▙            GitOps-Project: ArgoCD with K8S
+         ▝▀▀▀    ▀▀▀▀▘         ▀▀▀▘
 ```
 
 ## Certifications
