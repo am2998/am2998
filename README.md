@@ -52,6 +52,21 @@ GitOps-Project: ArgoCD with K8S</pre>
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/5aea48085b109cedc648106e1e3deea2e19f6612"><code>5aea480</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>Update readme</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/e718aa7e908b802986fc594dd1577c49629df7fd"><code>e718aa7</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>Update readme</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/58c3c2d75f7c3d07470cdedc8b3e06fca6334aa1"><code>58c3c2d</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/b39cf1c84562c2df0128cc35faef3a35eff90eb1"><code>b39cf1c</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
@@ -60,21 +75,6 @@ GitOps-Project: ArgoCD with K8S</pre>
       <b><a href="https://github.com/am2998/Arch-btw/commit/ba42bc83974be1448339e29c3ad84cb4524e64b7"><code>ba42bc8</code></a></b><br/>
       am2998/Arch-btw<br/><br/>
       <b>Replace Cosmic DE with Niri</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/44f64c878690ab9307be242c4124b18b8e9e1fe8"><code>44f64c8</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/51479da4c5ad7bc9ae23daf70b79787053c7bfa5"><code>51479da</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Update commit cards structure</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/70291ec47cd86f18c889d233d714812b032134b4"><code>70291ec</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>chore: update README</b>
     </td>
   </tr>
 </table>
