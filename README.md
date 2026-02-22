@@ -3,28 +3,35 @@
 </p>
 
 
-```text
-          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖             am2998@github
-          ▜███▙       ▜███▙  ▟███▛             -------------
-           ▜███▙       ▜███▙▟███▛              $ whoami
-            ▜███▙       ▜██████▛               Role: DevOps | Cloud Engineer
-     ▟█████████████████▙ ▜████▛     ▟▙         Uptime: 27 years 4 months
-    ▟███████████████████▙ ▜███▙    ▟██▙        Locale: it_IT.UTF-8 | en_US.UTF-8
-           ▄▄▄▄▖           ▜███▙  ▟███▛        Linkedin: www.linkedin.com/in/andrea-moscato
-          ▟███▛             ▜██▛ ▟███▛
-         ▟███▛               ▜▛ ▟███▛          $ ls /proc/skills
-▟███████████▛                  ▟██████████▙    Cloud: Azure
-▜██████████▛                  ▟███████████▛    Containers: Docker | Kubernetes
-      ▟███▛ ▟▙               ▟███▛             IaC: Terraform
-     ▟███▛ ▟██▙             ▟███▛              CI/CD: Jenkins | GitHub Actions
-    ▟███▛  ▜███▙           ▝▀▀▀▀               Linux: Arch
-    ▜██▛    ▜███▙ ▜██████████████████▛     
-     ▜▛     ▟████▙ ▜████████████████▛          $ ps aux
-           ▟██████▙         ▜███▙              Arch-btw: Arch with ZFS
-          ▟███▛▜███▙         ▜███▙             RAG-cli: RAG orchestrated by LangGraph
-         ▟███▛  ▜███▙         ▜███▙            GitOps-Project: ArgoCD with K8S
-         ▝▀▀▀    ▀▀▀▀▘         ▀▀▀▘
-```
+<table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td valign="top">
+      <img src="assets/nixos-logo.png" alt="NixOS logo" width="352" height="352" />
+    </td>
+    <td width="24"></td>
+    <td valign="top">
+      <pre>am2998@github
+-------------
+$ whoami
+Role: DevOps | Cloud Engineer
+Uptime: 27 years 4 months
+Locale: it_IT.UTF-8 | en_US.UTF-8
+Linkedin: www.linkedin.com/in/andrea-moscato
+
+$ ls /proc/skills
+Cloud: Azure
+Containers: Docker | Kubernetes
+IaC: Terraform
+CI/CD: Jenkins | GitHub Actions
+Linux: Arch
+
+$ ps aux
+Arch-btw: Arch with ZFS
+RAG-cli: RAG orchestrated by LangGraph
+GitOps-Project: ArgoCD with K8S</pre>
+    </td>
+  </tr>
+</table>
 
 ## Certifications
 
