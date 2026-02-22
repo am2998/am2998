@@ -8,7 +8,6 @@
     <td valign="top">
       <img src="assets/nixos-logo.png" alt="NixOS logo" width="352" height="352" />
     </td>
-    <td width="24"></td>
     <td valign="top">
       <pre>am2998@github
 -------------
