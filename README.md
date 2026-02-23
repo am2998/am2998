@@ -15,8 +15,6 @@ Role: DevOps|Cloud Engineer
 Uptime: 27 years 4 months
 Locale: it_IT.UTF-8|en_US.UTF-8
 Linkedin: www.linkedin.com/in/andrea-moscato
-
-<br>
 Cloud: Azure
 Containers: Docker|Kubernetes
 IaC: Terraform
