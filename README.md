@@ -11,19 +11,19 @@
     <td valign="top">
       <pre>am2998@github
 -------------
-Role: DevOps | Cloud Engineer
+Role: DevOps|Cloud Engineer
 Uptime: 27 years 4 months
-Locale: it_IT.UTF-8 | en_US.UTF-8
+Locale: it_IT.UTF-8|en_US.UTF-8
 Linkedin: www.linkedin.com/in/andrea-moscato
 
 <br>
 Cloud: Azure
-Containers: Docker | Kubernetes
+Containers: Docker|Kubernetes
 IaC: Terraform
-CI/CD: Jenkins | GitHub Actions
-API Management: Axway | APIM | Kong | Nginx
-Observability: Prometheus | Grafana | Azure Monitor
-Scripting: Bash | Python
+CI/CD: Jenkins|GitHub Actions
+API Management: Axway|APIM|Kong|Nginx
+Observability: Prometheus|Grafana|ELK|AZ Monitor
+Scripting: Bash|Python
     </td>
   </tr>
 </table>
