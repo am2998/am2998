@@ -21,29 +21,29 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/f417bdb79680ec97dedd57fa47a6130dbc57798e"><code>f417bdb</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/26d62aad4f8165bacfdab405d2c8ad675740cbdd"><code>26d62aa</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Adjust NixOS logo size in README</b>
+      <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/0ae7223f69730d94a46d3166afca699f267664fe"><code>0ae7223</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/206a74231e9a9c4474e66a6c6072dbac84e2466d"><code>206a742</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Clean up formatting in README.md</b>
+      <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/264bd4d63d518da390e400c674ce2df5953652e1"><code>264bd4d</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/e2c6761b9d6b0572e90033a99525bc70fd75e2db"><code>e2c6761</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update README.md</b>
+      <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/944561aec1072fc72f0c8142d5ae3c67b925f92e"><code>944561a</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/66bfd2af4c0f58376fd05db59a2567218732e10f"><code>66bfd2a</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update NixOS logo dimensions in README</b>
+      <b>Update readme</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/cfa79296dc6a7d1d8d18434df827cd57f379ea79"><code>cfa7929</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/860fc364058e688962ab5db43fd5a94ba8834997"><code>860fc36</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Refactor README.md for consistency in formatting</b>
+      <b>Update readme</b>
     </td>
   </tr>
 </table>
