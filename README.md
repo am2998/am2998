@@ -45,29 +45,29 @@ Scripting: Bash|Python
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/6c4b561dc781d58681d42d35eff37361d6cce36e"><code>6c4b561</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/f417bdb79680ec97dedd57fa47a6130dbc57798e"><code>f417bdb</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update README with new typing SVG message</b>
+      <b>Adjust NixOS logo size in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/0e66fc975225a478a61484b4c7baefa26ba30644"><code>0e66fc9</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/0ae7223f69730d94a46d3166afca699f267664fe"><code>0ae7223</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update readme</b>
+      <b>Clean up formatting in README.md</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/578921e159c89fda0ff47b1e7bf4701f46df3f72"><code>578921e</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/264bd4d63d518da390e400c674ce2df5953652e1"><code>264bd4d</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update readme</b>
+      <b>Update README.md</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/b82a603efbf28d769ac752c906ab216c0800afcf"><code>b82a603</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/944561aec1072fc72f0c8142d5ae3c67b925f92e"><code>944561a</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update readme</b>
+      <b>Update NixOS logo dimensions in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/9e423da68084d56d2aabd6ab5f7b4ce1e1b503d9"><code>9e423da</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/cfa79296dc6a7d1d8d18434df827cd57f379ea79"><code>cfa7929</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update readme</b>
+      <b>Refactor README.md for consistency in formatting</b>
     </td>
   </tr>
 </table>
