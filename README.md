@@ -11,22 +11,19 @@
     <td valign="top">
       <pre>am2998@github
 -------------
-$ whoami
 Role: DevOps | Cloud Engineer
 Uptime: 27 years 4 months
 Locale: it_IT.UTF-8 | en_US.UTF-8
 Linkedin: www.linkedin.com/in/andrea-moscato
+
 <br>
-$ ls /proc/skills
 Cloud: Azure
 Containers: Docker | Kubernetes
 IaC: Terraform
 CI/CD: Jenkins | GitHub Actions
-<br>
-$ ps aux
-Arch-btw: Arch with ZFS
-RAG-cli: RAG orchestrated by LangGraph
-GitOps-Project: ArgoCD with K8S</pre>
+API Management: Axway | APIM | Kong | Nginx
+Observability: Prometheus | Grafana | Azure Monitor
+Scripting: Bash | Python
     </td>
   </tr>
 </table>
