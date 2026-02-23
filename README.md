@@ -2,30 +2,6 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+NixOS+btw+%F0%9F%90%A7;In+love+with+Niri+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
-
-<img align="right" src="assets/nixos-logo.png" alt="NixOS logo" width="240" />
-
-```text
-am2998@github
--------------
-$ whoami
-Role: DevOps | Cloud Engineer
-Uptime: 27 years 4 months
-Locale: it_IT.UTF-8 | en_US.UTF-8
-LinkedIn: www.linkedin.com/in/andrea-moscato
-
-$ ls /proc/skills
-Cloud: Azure
-Containers: Docker | Kubernetes
-IaC: Terraform
-CI/CD: Jenkins | GitHub Actions
-API Management: Axway | APIM | Kong | Nginx
-Observability: Prometheus | Grafana | ELK | AZ Monitor
-Scripting: Bash | Python
-```
-
-<br clear="right" />
-
 ## Certifications
 
 <div>
