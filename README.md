@@ -1,33 +1,28 @@
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+NixOS+btw+%F0%9F%90%A7;In+love+with+Linux+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+NixOS+btw+%F0%9F%90%A7;In+love+with+Niri+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 
 <table align="center" cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td valign="top">
-      <img src="assets/nixos-logo.png" alt="NixOS logo" width="352" height="352" />
+      <img src="assets/nixos-logo.png" alt="NixOS logo" width="275" height="275" />
     </td>
     <td valign="top">
       <pre style="margin: 0;">am2998@github
 -------------
-$ whoami
-Role: DevOps | Cloud Engineer
+Role: DevOps|Cloud Engineer
 Uptime: 27 years 4 months
-Locale: it_IT.UTF-8 | en_US.UTF-8
+Locale: it_IT.UTF-8|en_US.UTF-8
 Linkedin: www.linkedin.com/in/andrea-moscato
 <br>
-$ ls /proc/skills
 Cloud: Azure
-Containers: Docker | Kubernetes
+Containers: Docker|Kubernetes
 IaC: Terraform
-CI/CD: Jenkins | GitHub Actions
-Linux: Arch
-<bar>
-$ ps aux
-Arch-btw: Arch with ZFS
-RAG-cli: RAG orchestrated by LangGraph
-GitOps-Project: ArgoCD with K8S</pre>
+CI/CD: Jenkins|GitHub Actions
+API Management: Axway|APIM|Kong|Nginx
+Observability: Prometheus|Grafana|ELK|AZ Monitor
+Scripting: Bash|Python
     </td>
   </tr>
 </table>
@@ -51,29 +46,29 @@ GitOps-Project: ArgoCD with K8S</pre>
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/5aea48085b109cedc648106e1e3deea2e19f6612"><code>5aea480</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/f417bdb79680ec97dedd57fa47a6130dbc57798e"><code>f417bdb</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update readme</b>
+      <b>Adjust NixOS logo size in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/e718aa7e908b802986fc594dd1577c49629df7fd"><code>e718aa7</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/0ae7223f69730d94a46d3166afca699f267664fe"><code>0ae7223</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Update readme</b>
+      <b>Clean up formatting in README.md</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/58c3c2d75f7c3d07470cdedc8b3e06fca6334aa1"><code>58c3c2d</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/264bd4d63d518da390e400c674ce2df5953652e1"><code>264bd4d</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
+      <b>Update README.md</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/b39cf1c84562c2df0128cc35faef3a35eff90eb1"><code>b39cf1c</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/944561aec1072fc72f0c8142d5ae3c67b925f92e"><code>944561a</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
+      <b>Update NixOS logo dimensions in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/Arch-btw/commit/ba42bc83974be1448339e29c3ad84cb4524e64b7"><code>ba42bc8</code></a></b><br/>
-      am2998/Arch-btw<br/><br/>
-      <b>Replace Cosmic DE with Niri</b>
+      <b><a href="https://github.com/am2998/am2998/commit/cfa79296dc6a7d1d8d18434df827cd57f379ea79"><code>cfa7929</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>Refactor README.md for consistency in formatting</b>
     </td>
   </tr>
 </table>
