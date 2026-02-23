@@ -3,29 +3,28 @@
 </p>
 
 
-<table align="center" cellpadding="0" cellspacing="0" border="0">
-  <tr>
-    <td valign="top">
-      <img src="assets/nixos-logo.png" alt="NixOS logo" width="300" height="300" />
-    </td>
-    <td valign="top">
-      <code>am2998@github<br/>
--------------<br/>
-Role: DevOps | Cloud Engineer<br/>
-Uptime: 27 years 4 months<br/>
-Locale: it_IT.UTF-8 | en_US.UTF-8<br/>
-Linkedin: www.linkedin.com/in/andrea-moscato<br/>
-<br/>
-Cloud: Azure<br/>
-Containers: Docker | Kubernetes<br/>
-IaC: Terraform<br/>
-CI/CD: Jenkins | GitHub Actions<br/>
-API Management: Axway | APIM | Kong | Nginx<br/>
-Observability: Prometheus | Grafana | ELK | AZ Monitor<br/>
-Scripting: Bash | Python</code>
-    </td>
-  </tr>
-</table>
+<img align="right" src="assets/nixos-logo.png" alt="NixOS logo" width="240" />
+
+```text
+am2998@github
+-------------
+$ whoami
+Role: DevOps | Cloud Engineer
+Uptime: 27 years 4 months
+Locale: it_IT.UTF-8 | en_US.UTF-8
+LinkedIn: www.linkedin.com/in/andrea-moscato
+
+$ ls /proc/skills
+Cloud: Azure
+Containers: Docker | Kubernetes
+IaC: Terraform
+CI/CD: Jenkins | GitHub Actions
+API Management: Axway | APIM | Kong | Nginx
+Observability: Prometheus | Grafana | ELK | AZ Monitor
+Scripting: Bash | Python
+```
+
+<br clear="right" />
 
 ## Certifications
 
