@@ -23,7 +23,7 @@ Containers: Docker | Kubernetes
 IaC: Terraform
 CI/CD: Jenkins | GitHub Actions
 Linux: Arch
-<bar>
+<br>
 $ ps aux
 Arch-btw: Arch with ZFS
 RAG-cli: RAG orchestrated by LangGraph
