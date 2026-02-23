@@ -9,7 +9,7 @@
       <img src="assets/nixos-logo.png" alt="NixOS logo" width="352" height="352" />
     </td>
     <td valign="top">
-      <pre>am2998@github
+      <pre style="margin: 0;">am2998@github
 -------------
 $ whoami
 Role: DevOps | Cloud Engineer
