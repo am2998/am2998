@@ -6,7 +6,7 @@
 <table align="center" cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td valign="top">
-      <img src="assets/nixos-logo.png" alt="NixOS logo" width="310" height="310" />
+      <img src="assets/nixos-logo.png" alt="NixOS logo" width="285" height="285" />
     </td>
     <td valign="top">
       <pre>am2998@github
