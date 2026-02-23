@@ -22,7 +22,6 @@ Cloud: Azure
 Containers: Docker | Kubernetes
 IaC: Terraform
 CI/CD: Jenkins | GitHub Actions
-Linux: Arch
 <br>
 $ ps aux
 Arch-btw: Arch with ZFS
