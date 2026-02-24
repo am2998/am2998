@@ -21,6 +21,11 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/e0d330fb852ec6ea3911273a408bdc691112cfdd"><code>e0d330f</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/26d62aad4f8165bacfdab405d2c8ad675740cbdd"><code>26d62aa</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update readme</b>
@@ -37,11 +42,6 @@
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/66bfd2af4c0f58376fd05db59a2567218732e10f"><code>66bfd2a</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Update readme</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/860fc364058e688962ab5db43fd5a94ba8834997"><code>860fc36</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update readme</b>
     </td>
