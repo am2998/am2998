@@ -21,27 +21,27 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/ca8a0718d3fdfddeca5c3d0594dbeeea4c0e74cb"><code>ca8a071</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>Remove ASCII art section from README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/a06844ca7256624a0daa80139ac7de06c10f3a7a"><code>a06844c</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>Enhance README with ASCII art</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/b1d73a96287ebc2dc7834705ee1647557980b2ee"><code>b1d73a9</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/e0d330fb852ec6ea3911273a408bdc691112cfdd"><code>e0d330f</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/26d62aad4f8165bacfdab405d2c8ad675740cbdd"><code>26d62aa</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Update readme</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/206a74231e9a9c4474e66a6c6072dbac84e2466d"><code>206a742</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Update readme</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/e2c6761b9d6b0572e90033a99525bc70fd75e2db"><code>e2c6761</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Update readme</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/66bfd2af4c0f58376fd05db59a2567218732e10f"><code>66bfd2a</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update readme</b>
     </td>
