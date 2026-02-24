@@ -2,20 +2,6 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=51A8FF&center=true&vCenter=true&width=800&height=100&lines=I+use+NixOS+btw+%F0%9F%90%A7;In+love+with+Niri+%F0%9F%96%A4;Living+inside+the+zsh+shell+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
-               ___   __              
-         /¯\    \  \ /  ;             
-         \  \    \  v  /              
-      /¯¯¯   ¯¯¯¯\\   /  /\           
-     ’————————————·\  \ /  ;          
-          /¯¯;      \ //  /_          
-    _____/  /        ‘/     \         
-    \      /,        /  /¯¯¯¯         
-     ¯¯/  // \      /__/              
-      .  / \  \·————————————.         
-       \/  /   \\_____   ___/         
-          /  ,  \     \  \            
-          \_/ \__\     \_/      
-
 ## Certifications
 
 <div>
