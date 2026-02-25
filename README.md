@@ -21,6 +21,11 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/a5dfc6486c5a9b68afce3a1b34789e49f3d27190"><code>a5dfc64</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/ca8a0718d3fdfddeca5c3d0594dbeeea4c0e74cb"><code>ca8a071</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Remove ASCII art section from README</b>
@@ -39,11 +44,6 @@
       <b><a href="https://github.com/am2998/am2998/commit/e0d330fb852ec6ea3911273a408bdc691112cfdd"><code>e0d330f</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/26d62aad4f8165bacfdab405d2c8ad675740cbdd"><code>26d62aa</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Update readme</b>
     </td>
   </tr>
 </table>
