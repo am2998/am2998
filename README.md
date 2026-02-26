@@ -59,29 +59,29 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/293f111472b4b0c3646e69be20b58a75280cb143"><code>293f111</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/56dd59c9d1e49e6a5b52fd5baa1d26d51bbc715f"><code>56dd59c</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
+      <b>Update ASCII art and add new content to README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/7fdef40d574705e7dae1e8635c408961e53db6cf"><code>7fdef40</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/8933766d62835f9ec203081497e830001b2a7d3a"><code>8933766</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
+      <b>Update README.md</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/a5dfc6486c5a9b68afce3a1b34789e49f3d27190"><code>a5dfc64</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/5ef29e46007fc939f62f2b5d79db61c0a337fba0"><code>5ef29e4</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>chore: update README</b>
+      <b>Update README.md</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/ca8a0718d3fdfddeca5c3d0594dbeeea4c0e74cb"><code>ca8a071</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/b73d9e102b75f994d47941ee59d6d38264650446"><code>b73d9e1</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Remove ASCII art section from README</b>
+      <b>Fix duplicate Technologies section in README</b>
     </td>
     <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/a06844ca7256624a0daa80139ac7de06c10f3a7a"><code>a06844c</code></a></b><br/>
+      <b><a href="https://github.com/am2998/am2998/commit/558f05990cb7f82de25700c8382ba2deeeb0344e"><code>558f059</code></a></b><br/>
       am2998/am2998<br/><br/>
-      <b>Enhance README with ASCII art</b>
+      <b>Update README.md</b>
     </td>
   </tr>
 </table>
