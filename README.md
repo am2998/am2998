@@ -3,17 +3,35 @@
 </p>
 
 
-
-```
+<p align="center">
+<pre>
  _       __     __                              __                                                   _____ __     __
 | |     / /__  / /________  ____ ___  ___      / /_____       ____ ___  __  __     ____  _________  / __(_) /__  / /
 | | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \    / __/ __ \     / __ `__ \/ / / /    / __ \/ ___/ __ \/ /_/ / / _ \/ / 
 | |/ |/ /  __/ / /__/ /_/ / / / / / /  __/   / /_/ /_/ /    / / / / / / /_/ /    / /_/ / /  / /_/ / __/ / /  __/_/  
 |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/    \__/\____/    /_/ /_/ /_/\__, /    / .___/_/   \____/_/ /_/_/\___(_)   
                                                                      /____/    /_/                                
-  ```
+</pre>
+</p>
 
+## Technologies
 
+## Technologies
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rancher-0075A8?style=for-the-badge&logo=rancher&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+</p>
 
 ## Certifications
 
