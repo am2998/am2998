@@ -59,6 +59,11 @@
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td align="left" valign="top" width="20.00%">
+      <b><a href="https://github.com/am2998/am2998/commit/fbcc891c5ba1fb4fa0741d709f152b5d0a4d4134"><code>fbcc891</code></a></b><br/>
+      am2998/am2998<br/><br/>
+      <b>chore: update README</b>
+    </td>
+    <td align="left" valign="top" width="20.00%">
       <b><a href="https://github.com/am2998/am2998/commit/c3243d2e29d7b5f659cfefae6953e700c3cb7412"><code>c3243d2</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>chore: update README</b>
@@ -77,11 +82,6 @@
       <b><a href="https://github.com/am2998/am2998/commit/5ef29e46007fc939f62f2b5d79db61c0a337fba0"><code>5ef29e4</code></a></b><br/>
       am2998/am2998<br/><br/>
       <b>Update README.md</b>
-    </td>
-    <td align="left" valign="top" width="20.00%">
-      <b><a href="https://github.com/am2998/am2998/commit/b73d9e102b75f994d47941ee59d6d38264650446"><code>b73d9e1</code></a></b><br/>
-      am2998/am2998<br/><br/>
-      <b>Fix duplicate Technologies section in README</b>
     </td>
   </tr>
 </table>
